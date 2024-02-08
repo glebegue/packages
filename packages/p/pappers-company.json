@@ -1,0 +1,29 @@
+{
+  "name": "Pappers-company",
+  "description": "A standalone implementation of Pappers Company API.",
+  "filename": "pappers-company.min.js",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/glebegue/pappers-api.git"
+  },
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/glebegue/pappers-api.git",
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "pappers-company*"
+        ]
+      }
+    ]
+  },
+  "homepage": "https://www.pappers.fr",
+  "keywords": [
+    "ajax",
+    "pjax",
+    "fetch",
+    "non-jquery"
+  ]
+}
